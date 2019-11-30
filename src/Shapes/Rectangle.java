@@ -11,6 +11,18 @@ public class Rectangle implements Shapes {
     private int sideA;
     private int sideB;
 
+    Rectangle()
+    {
+        sideA = 0;
+        sideB = 0;
+    }
+
+    Rectangle(int length, int width)
+    {
+        sideA = width;
+        sideB = length;
+    }
+
     public int area() {
         return sideA * sideB;
     }
