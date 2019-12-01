@@ -7,6 +7,7 @@ public class EmployeeClient {
 		System.out.println("Information for lawyer Joe: ");
 		System.out.print(joe);
 		
+		
 	}
 	
 }
