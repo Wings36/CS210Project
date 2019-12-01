@@ -5,4 +5,5 @@ public interface Employee {
 	public void addHoursWorked();
 	public void addHoursWorked(int hours);
 	public int getHoursWorked();
+	
 }
