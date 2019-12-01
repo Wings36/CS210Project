@@ -19,5 +19,23 @@ public class ShapeTest {
         System.out.println("The area of recTwo is " + recTwo.area());
         System.out.println("The Perimeter of recTwo is " + recTwo.perimeter());
 
+        Triangle triagOne = new Triangle(1, 3, 5);
+        Triangle triagTwo = new Triangle(1, 4, 5.5);
+        Triangle triagThree = new Triangle();
+
+        System.out.println("The area of triagOne is " + triagOne.area());
+        System.out.println("The Perimeter of triagOne is " + triagOne.perimeter());
+
+        System.out.println();
+        System.out.println("The area of triagTwo is " + triagTwo.area());
+        System.out.println("The Perimeter of triagTwo is " + triagTwo.perimeter());
+
+        System.out.println();
+        triagThree.setHeight(7);
+        triagThree.setLength(9);
+        System.out.println("The area of recTwo is " + recTwo.area());
+        System.out.println("The Perimeter of recTwo is " + recTwo.perimeter());
+
+
     }
 }
