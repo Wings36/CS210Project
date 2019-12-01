@@ -37,7 +37,7 @@ public class ShapeTest {
         triagThree.setLength(9);
         System.out.println("The area of recTwo is " + recTwo.getArea());
         System.out.println("The Perimeter of recTwo is " + recTwo.getPerimeter());
-        System.out.println("Test");
+        System.out.println("Tet");
         
 
 
