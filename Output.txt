@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The area of recOne is 24
 The Perimeter of recOne is 20
 
