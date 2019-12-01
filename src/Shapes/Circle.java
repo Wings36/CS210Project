@@ -8,6 +8,11 @@ public class Circle implements Shapes {
         this.radius = radius;
     }
 
+    Circle()
+    {
+        radius = 0;
+    }
+
     public int getArea() {
         double result = Math.PI * radius * radius;
         return (int) result;
@@ -19,8 +24,9 @@ public class Circle implements Shapes {
         return (int)result;
     }
 
-    public void setRadius(int radius)
+    void setRadius(int radius)
     {
         this.radius = radius;
+        System.out.println("Successfully set the radius to " + this.radius);
     }
 }

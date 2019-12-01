@@ -2,9 +2,10 @@
 
 package Shapes;
 
-public class ShapeTest {
+public class ShapeClient {
     public static void main(String[] args)
     {
+        //Rectangles
         Rectangle recOne = new Rectangle(4, 6);
         Rectangle recTwo = new Rectangle();
 
@@ -20,6 +21,9 @@ public class ShapeTest {
         recTwo.setLength(9);
         System.out.println("The area of recTwo is " + recTwo.getArea());
         System.out.println("The Perimeter of recTwo is " + recTwo.getPerimeter());
+        System.out.println();
+
+        //Triangles
 
         Triangle triagOne = new Triangle(1, 3, 5);
         Triangle triagTwo = new Triangle(1, 4, 5.5);
@@ -37,6 +41,25 @@ public class ShapeTest {
         triagThree.setLength(9);
         System.out.println("The area of recTwo is " + recTwo.getArea());
         System.out.println("The Perimeter of recTwo is " + recTwo.getPerimeter());
+        System.out.println();
+
+        //Circles
+        Circle cirOne = new Circle(4);
+        Circle cirTwo = new Circle();
+
+        System.out.println("The area of cirOne is " + cirOne.getArea());
+        System.out.println("The Perimeter of cirOne is " + cirOne.getPerimeter());
+
+        System.out.println();
+        System.out.println("The area of cirTwo is " + cirTwo.getArea());
+        System.out.println("The Perimeter of cirTwo is " + cirTwo.getPerimeter());
+
+        System.out.println();
+        cirTwo.setRadius(7);
+        System.out.println("The area of cirTwo is " + cirTwo.getArea());
+        System.out.println("The Perimeter of cirTwo is " + cirTwo.getPerimeter());
+
+
 
 
     }

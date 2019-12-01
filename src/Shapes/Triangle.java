@@ -34,7 +34,7 @@ public class Triangle implements Shapes {
     {
         sideA = length;
         sideB = height;
-        sideC = (double)hypot;
+        sideC = hypot;
     }
 
     public int getArea() {
@@ -60,11 +60,13 @@ public class Triangle implements Shapes {
     void setLength(int length) {
 
         sideA = length;
+        System.out.println("Successfully set the height to " + sideA);
     }
 
 
     void setHeight(int height) {
 
         sideB = height;
+        System.out.println("Successfully set the length to " + sideB);
     }
 }
