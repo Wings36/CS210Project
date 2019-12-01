@@ -1,0 +1,31 @@
+The area of recOne is 24
+The Perimeter of recOne is 20
+
+The area of recTwo is 0
+The Perimeter of recTwo is 0
+
+Successfully set the height to 7
+Successfully set the length to 9
+The area of recTwo is 63
+The Perimeter of recTwo is 32
+
+The area of triagOne is 3
+The Perimeter of triagOne is 5
+
+The area of triagTwo is 4
+The Perimeter of triagTwo is 6
+
+Successfully set the height to 7
+Successfully set the length to 9
+The area of recTwo is 63
+The Perimeter of recTwo is 32
+
+The area of cirOne is 50
+The Perimeter of cirOne is 50
+
+The area of cirTwo is 0
+The Perimeter of cirTwo is 0
+
+Successfully set the radius to 7
+The area of cirTwo is 153
+The Perimeter of cirTwo is 87

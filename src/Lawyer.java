@@ -26,10 +26,12 @@ public class Lawyer implements Employee {
 	{
 		return scheduledHours;
 	}
-	
-	public void addHoursWorked()
+
+	public void removeHoursWorked(int hours) throws IllegalArgumentException
 	{
-		workedHours++;
+		if((workedHours - hours) < 0)
+			throw new IllegalArgumentException("Hours worked cannot be negative");
+		workedHours -= hours;
 	}
 	
 	public void addHoursWorked(int hours)
@@ -46,7 +48,7 @@ public class Lawyer implements Employee {
 	{
 		String format = "";
 		format += getJobDescription();
-		format += "\nLawyer gets paid " + salary + " a year. ";
+		format += "\nLawyer gets paid $" + salary + " a year. ";
 		format += "Lawyers are scheduled to work " + scheduledHours + " hours per week. ";
 		format += "This lawyer has worked " + workedHours + " hours this week.\n";
 		

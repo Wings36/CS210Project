@@ -11,6 +11,7 @@ public class WebDesigner implements Employee {
 		salary = 77500;
 		scheduledHours = 42;
 		workedHours = 0;
+		workFromHomeHours = 0;
 	}
 	
 	public int getSalary()
@@ -28,9 +29,19 @@ public class WebDesigner implements Employee {
 		return scheduledHours;
 	}
 	
-	public void addHoursWorked()
+	public void removeHoursWorked(int hours) throws IllegalArgumentException
 	{
-		workedHours++;
+		if((workedHours - hours) < 0)
+			throw new IllegalArgumentException("Hours worked cannot be negative");
+		workedHours -= hours;
+	}
+	
+	public void removeHomeHoursWorked(int hours) throws IllegalArgumentException
+	{
+		if((workFromHomeHours - hours) < 0)
+			throw new IllegalArgumentException("Hours worked cannot be negative");
+		workFromHomeHours -= hours;
+		workedHours -= hours;
 	}
 	
 	public void addHoursWorked(int hours)
@@ -41,7 +52,12 @@ public class WebDesigner implements Employee {
 	public void addHoursWorkedHome(int hours)
 	{
 		workFromHomeHours += hours;
-		workedHours += workFromHomeHours;
+		workedHours += hours;
+	}
+	
+	public int getHoursWorkedHome()
+	{
+		return workFromHomeHours;
 	}
 	
 	public int getHoursWorked()
@@ -53,7 +69,7 @@ public class WebDesigner implements Employee {
 	{
 		String format = "";
 		format += getJobDescription();
-		format += "\nWeb designer gets paid " + salary + " a year. ";
+		format += "\nWeb designer gets paid $" + salary + " a year. ";
 		format += "Web designers are scheduled to work " + scheduledHours + " hours per week. ";
 		format += "This web designer has worked " + (workedHours + workFromHomeHours) + "(" + workFromHomeHours + " at home) hours this week.\n";
 		
