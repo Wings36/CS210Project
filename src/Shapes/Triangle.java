@@ -16,21 +16,21 @@ public class Triangle implements Shapes {
     private double sideC;
     private Boolean calcHypot = true;
 
-    public Triangle()
+    Triangle()
     {
         sideA = 0;
         sideB = 0;
         sideC = 0.0;
     }
 
-    public Triangle(int length, int height, double hypot)
+    Triangle(int length, int height, double hypot)
     {
         sideA = length;
         sideB = height;
         sideC = hypot;
     }
 
-    public Triangle(int length, int height, int hypot)
+    Triangle(int length, int height, int hypot)
     {
         sideA = length;
         sideB = height;
@@ -57,7 +57,14 @@ public class Triangle implements Shapes {
         }
     }
 
+    void setLength(int length) {
+
+        sideA = length;
+    }
 
 
+    void setHeight(int height) {
 
+        sideB = height;
+    }
 }
