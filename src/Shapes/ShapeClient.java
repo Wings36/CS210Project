@@ -73,7 +73,24 @@ public class ShapeClient {
         output.println("The area of cirTwo is " + cirTwo.getArea());
         output.println("The Perimeter of cirTwo is " + cirTwo.getPerimeter());
 
+        //Hexagon
+        output.println();
+        Hexagon hexOne = new Hexagon(7);
+        Hexagon hexTwo = new Hexagon();
 
+        output.println("The area of hexOne is " + hexOne.getArea());
+        output.println("The Perimeter of hexOne is " + hexOne.getPerimeter());
+
+        output.println();
+        output.println("The area of hexTwo is " + hexTwo.getArea());
+        output.println("The Perimeter of hexTwo is " + hexTwo.getPerimeter());
+
+        output.println();
+        hexTwo.setLength(8);
+        output.println("Successfully set the length to " + hexTwo.getLength());
+
+        output.println("The area of hexTwo is " + hexTwo.getArea());
+        output.println("The Perimeter of hexTwo is " + hexTwo.getPerimeter());
 
 
     }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 The area of recOne is 24
 The Perimeter of recOne is 20
 
@@ -30,3 +29,13 @@ The Perimeter of cirTwo is 0
 Successfully set the radius to 7
 The area of cirTwo is 153
 The Perimeter of cirTwo is 87
+
+The area of hexOne is 127
+The Perimeter of hexOne is 42
+
+The area of hexTwo is 0
+The Perimeter of hexTwo is 0
+
+Successfully set the length to 8
+The area of hexTwo is 166
+The Perimeter of hexTwo is 48
