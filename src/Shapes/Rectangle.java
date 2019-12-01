@@ -33,15 +33,19 @@ public class Rectangle implements Shapes {
         return (sideB * 2) + (sideA * 2);
     }
 
-    public void setLength(int length)
+    void setLength(int length)
     {
         sideB = length;
         System.out.println("Successfully set the length to " + sideB);
     }
 
-    public void setHeight(int height)
+    void setHeight(int height)
     {
         sideA = height;
         System.out.println("Successfully set the height to " + sideA);
     }
+
+    int getLength() { return sideB; }
+
+    int getHeight() { return sideA; }
 }
