@@ -1,4 +1,5 @@
 // by Peter Hoang
+// corrected by Dien Nguyen
 
 package Shapes;
 
@@ -26,11 +27,11 @@ public class Circle implements Shapes {
         return (int)result;
     }
 
-    void setRadius(int radius)
+    public void setRadius(int radius)
     {
         this.radius = radius;
         System.out.println("Successfully set the radius to " + this.radius);
     }
 
-    int getRadius() { return radius; }
+    public int getRadius() { return radius; }
 }
