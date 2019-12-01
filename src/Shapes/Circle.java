@@ -29,4 +29,6 @@ public class Circle implements Shapes {
         this.radius = radius;
         System.out.println("Successfully set the radius to " + this.radius);
     }
+
+    int getRadius() { return radius; }
 }

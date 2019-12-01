@@ -69,4 +69,7 @@ public class Triangle implements Shapes {
         sideB = height;
         System.out.println("Successfully set the length to " + sideB);
     }
+
+    int getLength() { return sideA; }
+    int getHeight() { return sideB; }
 }
