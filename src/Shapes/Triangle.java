@@ -1,5 +1,5 @@
 package Shapes;
-
+//Peter Hoang
 /*
         |\
         |  \
@@ -37,12 +37,12 @@ public class Triangle implements Shapes {
         sideC = (double)hypot;
     }
 
-    public int area() {
+    public int getArea() {
         return sideA * sideB;
     }
 
 
-    public int perimeter() {
+    public int getPerimeter() {
         hypot();
         return sideA + sideB + (int)sideC;
     }
@@ -56,4 +56,8 @@ public class Triangle implements Shapes {
             calcHypot = false;
         }
     }
+
+
+
+
 }
