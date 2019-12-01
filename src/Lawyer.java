@@ -47,7 +47,7 @@ public class Lawyer implements Employee {
 		String format = "";
 		format += getJobDescription();
 		format += "\nLawyer gets paid " + salary + " a year. ";
-		format += "Lawyers are scheduled to work " + scheduledHours + " per week. ";
+		format += "Lawyers are scheduled to work " + scheduledHours + " hours per week. ";
 		format += "This lawyer has worked " + workedHours + " hours this week.\n";
 		
 		return format;
