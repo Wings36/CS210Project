@@ -1,3 +1,4 @@
+//class by Dien Nguyen
 
 public class Lawyer implements Employee {
 	private int salary;
