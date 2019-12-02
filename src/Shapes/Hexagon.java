@@ -31,8 +31,10 @@ public class Hexagon implements Shapes{
 		return (int)((3 * Math.sqrt(3)/2) * Math.pow(sideLength, 2));
 	}
 
-	public void setLength(int length)
+	public void setLength(int length) throws IllegalArgumentException
 	{
+		if(length < 0)
+			throw new IllegalArgumentException("The side length of hexagon cannot be negative.");
 		sideLength = length;
 	}
 	
