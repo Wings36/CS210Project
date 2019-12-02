@@ -5,6 +5,7 @@ public class EmployeeClient {
 	public static void main(String[] args) {
 		Lawyer joe = new Lawyer();
 		WebDesigner tony = new WebDesigner();
+		Secretary jane = new Secretary();
 		
 		System.out.println("Information for lawyer Joe: ");
 		System.out.print(joe);
