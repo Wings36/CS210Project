@@ -7,4 +7,5 @@ public interface Employee {
 	public int getHoursWorked(); //actual hours worked
 	public void addHoursWorked(int hours);
 	public void removeHoursWorked(int hours);
+	public String toString();
 }

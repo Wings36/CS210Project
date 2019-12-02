@@ -26,4 +26,15 @@ public class LegalSecretary extends Secretary {
 				+ "maintaining schedules for lawyers, ordering supplies, copying, faxing and maintaining the office.";
 	}
 	
+	public String toString()
+	{
+		String format = "";
+		format += getJobDescription();
+		format += "\nLegal secretaries gets paid $" + getSalary() + " a year. ";
+		format += "Legal secretaries are scheduled to work " + getWeeklyHours() + " hours per week. ";
+		format += "This legal secretary has worked " + super.getHoursWorked() + " hours this week.\n";
+		
+		return format;
+	}
+	
 }
