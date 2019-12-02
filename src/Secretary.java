@@ -29,12 +29,12 @@ public class Secretary implements Employee {
     {
         String format = "";
         format += getJobDescription();
-        format += "\n Secretary gets paid $" + salary + " a year. ";
+        format += "\nSecretary gets paid $" + salary + " a year. ";
         format += "Secretaries are scheduled to work " + scheduledHours + " hours per week. ";
-        format+= "This secretary has worked " + workedHours + "hours this week. \n";
+        format+= "This secretary has worked " + workedHours + " hours this week. \n";
         return format;
     }
 
-
+    
 
 }

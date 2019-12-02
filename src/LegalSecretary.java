@@ -22,7 +22,7 @@ public class LegalSecretary extends Secretary {
 	{
 		return "Legal secretaries work in law offices and perform secretarial tasks that are specific to the law field: "
 				+ "writing legal documents, such as summonses, motions, subpoenas, etc., conducting research and reading legal articles, "
-				+ "and more, as well as standard secretarial duties, that might include answering phones and email, filing, creating and "
+				+ "\nand more, as well as standard secretarial duties, that might include answering phones and email, filing, creating and "
 				+ "maintaining schedules for lawyers, ordering supplies, copying, faxing and maintaining the office.";
 	}
 	
