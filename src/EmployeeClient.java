@@ -6,11 +6,15 @@ public class EmployeeClient {
 		Lawyer joe = new Lawyer();
 		WebDesigner tony = new WebDesigner();
 		Secretary jane = new Secretary();
+		LegalSecretary ana = new LegalSecretary();
+		Employee[] employeeList = new Employee[4];
 		
-		System.out.println("Information for lawyer Joe: ");
+		System.out.println("Information about lawyer Joe: ");
 		System.out.print(joe);
-		System.out.println("\nInformation for web designer Tony: ");
+		System.out.println("\nInformation about web designer Tony: ");
 		System.out.println(tony);
+		System.out.println("\nInformation about secretary Jane: ");
+		System.out.println(jane + "\n");
 		
 		tony.addHoursWorked(35);
 		tony.addHoursWorkedHome(6);

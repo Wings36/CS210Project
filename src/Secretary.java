@@ -11,7 +11,7 @@ public class Secretary implements Employee {
         scheduledHours = 30;
         workedHours = 0;
     }
-
+    
     public int getSalary() { return salary; }
     public int getWeeklyHours() { return scheduledHours; }
     public int getHoursWorked() { return workedHours; }
@@ -22,7 +22,7 @@ public class Secretary implements Employee {
         workedHours -= hours;
     }
     public String getJobDescription() {
-        return "a person employed by an individual or in an office to assist with correspondence, keep records, make appointments, and carry out similar tasks.";
+        return "A secretary is a person employed by an individual or in an office to assist with correspondence, keep records, make appointments, and carry out similar tasks.";
     }
 
 
