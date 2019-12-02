@@ -5,7 +5,7 @@ public class Secretary implements Employee {
     private int scheduledHours;
     private int workedHours;
 
-    public Secretary()
+    Secretary()
     {
         salary = 43507;
         scheduledHours = 30;
@@ -24,6 +24,17 @@ public class Secretary implements Employee {
     public String getJobDescription() {
         return "A secretary is a person employed by an individual or in an office to assist with correspondence, keep records, make appointments, and carry out similar tasks.";
     }
+
+    public String toString()
+    {
+        String format = "";
+        format += getJobDescription();
+        format += "\n Secretary gets paid $" + salary + " a year. ";
+        format += "Secretaries are scheduled to work " + scheduledHours + " hours per week. ";
+        format+= "This secretary has worked " + workedHours + "hours this week. \n";
+        return format;
+    }
+
 
 
 }
