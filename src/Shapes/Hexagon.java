@@ -35,6 +35,7 @@ public class Hexagon implements Shapes{
 	{
 		if(length < 0)
 			throw new IllegalArgumentException("The side length of hexagon cannot be negative.");
+		
 		sideLength = length;
 	}
 	
