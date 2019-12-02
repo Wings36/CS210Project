@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 public class ShapeClient {
     public static void main(String[] args) throws FileNotFoundException {
-        FileOutputStream print = new FileOutputStream("Output.txt");
+        FileOutputStream print = new FileOutputStream("ShapesOutput.txt");
         PrintStream output = new PrintStream(print);
 
         //Rectangles
