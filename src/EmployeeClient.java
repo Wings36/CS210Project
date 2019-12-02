@@ -20,7 +20,7 @@ public class EmployeeClient {
 	
 		tony.addHoursWorked(35);
 		tony.addHoursWorkedHome(6);
-		joe.addHoursWorked(50);1
+		joe.addHoursWorked(50);
 		ana.addHoursWorked(44);
 		
 		System.out.println("\nTimesheet for employees this week: ");
