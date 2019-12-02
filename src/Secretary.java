@@ -16,7 +16,7 @@ public class Secretary implements Employee {
     public int getWeeklyHours() { return scheduledHours; }
     public int getHoursWorked() { return workedHours; }
     public void addHoursWorked(int hours) { workedHours += hours; }
-    public void removeHoursWorked(int hours) {
+    public void removeHoursWorked(int hours) throws IllegalArgumentException {
         if (workedHours - hours < 0) { throw new IllegalArgumentException("Hours worked cannot be negative"); }
         workedHours -= hours;
     }
